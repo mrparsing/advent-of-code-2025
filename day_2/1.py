@@ -2,7 +2,7 @@ with open("input.txt", "r") as file:
     for id in file:
         id = id.split(",")
 
-sum = 0 
+sum = 0
 for i in id:
     first_id, second_id = i.split("-")
     for x in range(int(first_id), int(second_id)+1):
